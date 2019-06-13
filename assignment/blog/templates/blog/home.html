@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %}
+{% block content %}
+		<div class="container">
+    		<h1 class="display-3 text-center my-4">Do you want to ...</h1>
+    		<a type="button" class="btn btn-primary btn-lg btn-block" href="{% url 'blog-register' %}">Register</a>
+			<a type="button" class="btn btn-secondary btn-lg btn-block" href="{% url 'blog-view' %}">View all user details</a>
+		</div>
+{% endblock content %}
